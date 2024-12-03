@@ -428,19 +428,18 @@
 }
 
 .footer {
-  min-block-size: 668px;
+  min-block-size: 100vh;
   inline-size: 100%;
   position: relative;
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-block-end: 30px;
+  padding-block-end: 30px;
 }
 
 @media (width >= 768px) {
   .footer {
-    min-block-size: 1024px;
-    margin-block-end: var(--gap-md);
+    padding-block-end: var(--gap-md);
   }
 }
 
