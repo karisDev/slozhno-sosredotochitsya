@@ -23,13 +23,6 @@
 @media (width >= 768px) {
   .header {
     padding: var(--gap-md) var(--gap-md) 0 0;
-    /* min-block-size: 1024px; */
-  }
-}
-
-@media (width >= 1024px) {
-  .header {
-    /* min-block-size: 768px; */
   }
 }
 
